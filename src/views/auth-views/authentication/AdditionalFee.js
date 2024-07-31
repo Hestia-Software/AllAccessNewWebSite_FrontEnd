@@ -17,6 +17,7 @@ const AdditionalFee = () => {
   const additionalFeeRes = useSelector((state) => state?.CreateAdditionalFee);
   let optionsArrray = [];
   let propertiesList = data?.additionalFee?.item2;
+  
   Array.isArray(propertiesList) &&
     propertiesList.length > 0 &&
     propertiesList.map((op) =>
