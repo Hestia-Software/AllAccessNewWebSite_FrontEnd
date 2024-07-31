@@ -1,0 +1,9 @@
+
+  .app-content {
+     padding:$layout-content-gutter;
+    margin-top: $header-height;
+    min-height: calc(100vh - #{$content-height-offset});
+    position: relative;
+  }
+  
+ 

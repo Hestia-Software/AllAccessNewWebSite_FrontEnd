@@ -1,0 +1,38 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~@formio/js/dist/formio.full.min.css";
+#group-container-basic,
+#group-container-advanced,
+#group-container-layout,
+#group-container-premium,
+#group-container-data {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.builder-group-button {
+  width: 100%;
+}
+
+/* index.css */
+
+/* Example of overriding CKEditor styles */
+.ck-editor__editable {
+  min-height: 300px; /* Adjust the height of the editor */
+  font-family: Arial, sans-serif; /* Set a custom font */
+  font-size: 16px; /* Set a custom font size */
+}
+
+/* Example of styling toolbar buttons */
+.ck.ck-toolbar .ck-button {
+  color: #333; /* Button text color */
+  background-color: #f0f0f0; /* Button background color */
+  border: 1px solid #ccc; /* Button border */
+  border-radius: 4px; /* Button border radius */
+  padding: 8px; /* Button padding */
+  margin-right: 4px; /* Button margin */
+}
+
+/* Example of hiding specific toolbar buttons */
+.ck.ck-toolbar .ck-button.ck-heading {
+  display: none; /* Hide the heading button */
+}
