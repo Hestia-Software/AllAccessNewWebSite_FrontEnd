@@ -26,7 +26,7 @@ const getBase64 = (file) =>
     reader.onload = () => resolve(reader.result);
     reader.onerror = (error) => reject(error);
   });
-const Maintenance = () => {
+const Tenant = () => {
   const dispatch = useDispatch();
   const {
     TextInput,
@@ -2178,4 +2178,4 @@ const Maintenance = () => {
   );
 };
 
-export default Maintenance;
+export default Tenant;
